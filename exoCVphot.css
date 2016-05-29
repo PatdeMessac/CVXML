@@ -1,0 +1,377 @@
+
+
+cv{
+    
+    font-size: 20px;        
+   position: absolute; 
+    margin-top : 0;
+    display: flex;
+    flex-direction: column;
+	opacity: 1;
+    width: 1200px;
+    height :650px;
+    background-image: url("img021.jpg");
+    background-attachment: fixed; /*relative*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+ 	border-size : 1px;  
+}
+
+presentation{
+    color : black;
+    font-size: 20px;
+    display : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom:20px;
+    border-width:5px;	
+    border-style:inset;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    opacity: 0.8;
+    width : 100%;
+    height: 150px;
+    background-image: url("img020b2.jpg");
+    background-attachment: local;
+    background-size: cover;
+    }
+titre{/*Web dev jnr*/
+	font-size: 30px;
+	color :black;
+    opacity: 0.8;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding-top: 10px;
+    padding-left: 150px;
+padding-bottom: 10px;
+    width : 600px;
+    height: 100px;
+    background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-width:5px;	
+    border-style:inset;
+}
+formation{
+	color :black;
+	display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 20px;
+    opacity: 0.9;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left : 15px;
+    width : 750px;
+    height: 300px;
+    background-image: url("img020b2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    border-width:5px;	
+    border-style:inset;
+}
+
+experience{
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 18px;
+    color :black;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    opacity: 0.9;
+    width : 450px;
+    height: 450px;
+    background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+        border-width:5px;	
+    border-style:inset;
+}
+
+
+competence{/*langues, CACES"*/
+	display : flex;
+	flex-direction: column;
+	justify-content: space-around;
+    font-size: 18px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width : 250px;
+    height: 400px;
+    background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-left-width: 5px; 
+   opacity: 0.9;
+	border-width:5px;	
+    border-style:inset; 
+    border-right : 0px;  
+}
+
+hobbies{
+	display : flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 18px;
+    color :black;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+		border-width:5px;	
+	    border-style:inset;
+	    border-right: 0px;
+	    border-style: fixed;
+		border-top-left-radius: 10%;
+		border-bottom-left-radius: 15%;
+		border-top-right-radius: 10%;
+		border-bottom-right-radius: 15%;
+    width : 75%;
+    height: 500px;
+	    background-image: url("img020b2.jpg");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment: fixed;
+		opacity: 0.9;
+
+/*background-repeat: no-repeat;*/
+margin-bottom: 0px;
+
+margin-left: 10px;
+}
+
+hobbies fonction {text-align: left; color : blue;padding-left: 10px;}
+
+nom{
+	color : white;
+	font-size: 22px;
+	text-align: center;
+	background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+		border-radius: 35%;
+	padding-top: 15px;
+	/*padding-bottom: 10px;*/
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;
+    }
+
+prenom{
+color : white;
+	font-size: 22px;
+	text-align: center;
+    background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	border-radius: 35%;
+
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;
+    /*background-color: rgb(50,50,50);*/
+}       
+
+adresse{text-align: center;
+	font-size: 20px;
+    background-image: url("img020b2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 35%;
+
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+    /*display :block;*/
+/*opacity: 0.9;*/
+}
+telephone{font-size: 22px;
+text-align: center;
+	background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;    
+}
+
+mail {font-size: 22px;
+	text-align: center;
+	background-image: url("img020b2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;}
+
+
+age{font-size: 22px;
+	text-align: center;
+    background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 5px;
+    display: block;
+}
+
+
+annee{color : white;
+    display: inline-block;
+	background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left : 10px;
+    padding-right: 10px;
+    padding-top:15px;
+} 
+
+intitule{color: white;
+	display: inline-block; 
+	background-image: url("img020b2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+padding-left : 10px;
+    padding-right: 10px;
+    padding-top:15px;
+}
+
+lieu{
+	color: white;
+	display: inline-block;
+background-image: url("img020b2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; 
+
+padding-left : 10px;
+    padding-right: 10px;
+    padding-top:15px;
+}
+
+
+
+/*
+
+photos{
+    border-style: solid;
+    border-color: black;
+
+}
+*/
+phot1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("0pic2.jpg");
+    position: absolute;
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+   }
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {background-image:url("0pic2.jpg"); left:0px; top:0px;}
+    50%  {background-image:url("0pic2.jpg"); left:800px; top:150px;}
+    100%  {background-image:url("0pic2.jpg"); left:1000px; top:150px;}
+    }
+
+
+phot2{
+	width: 100px;
+    height: 100px;
+    background-image: url("0pic1.jpg");
+    position: absolute;
+    /*-webkit-animation-name: example2; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-delay: 2s; */
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {background-image:url("0pic1.jpg"); left:950px; top:0px;}
+    50%  {background-image:url("0pic1.jpg"); left:850px; top:150px;}
+    100%  {background-image:url("0pic1.jpg"); left:900px; top:150px;}
+}
+
+phot3{
+	width: 100px;
+    height: 100px;
+    background-image: url("0pic4.jpg");
+    position: absolute;
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    }
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {background-image:url("0pic4.jpg"); left:950px; top:500px;}
+    50%  {background-image:url("0pic4.jpg"); left:950px; top:200px;}
+    100%  {background-image:url("0pic4.jpg"); left:900px; top:250px;}
+ }
+
+phot4{
+	width: 100px;
+    height: 100px;
+    background-image: url("0pic3.jpg");
+    position: absolute;
+    -webkit-animation-name: example4; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+    animation-name: example4;
+    animation-duration: 2s;
+    /*animation-delay: 6s;*/
+    animation-fill-mode: forwards;
+   }
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {background-image:url("0pic3.jpg"); left:0px; top:500px;}
+    50%  {background-image:url("0pic3.jpg"); left:800px; top:500px;}
+    100%  {background-image:url("0pic3.jpg"); left:1000px; top:250px;}
+    
+}
