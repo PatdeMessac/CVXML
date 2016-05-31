@@ -20,40 +20,45 @@
         <age>43 ans</age>
     </presentation>
     
-    <titre>WEB DEVELOPPER JUNIOR</titre>
+    <titre>WEB DEVELOPPER Jr
+<fonction>HTML5, CSS3, PHP</fonction>
+
+    </titre>
     
     
     
-    <formation>
+    <formation>FORMATION
+        <annee>2017</annee>
+        <intitule>WEB DEVELOPPEUR JUNIOR, RENNES </intitule>
+        <lieu></lieu>
         <annee>1996</annee>
-        <intitule>DEUG LLCE ANGLAIS </intitule>
-        <lieu>UNIVERSITE RENNES II</lieu>
+        <intitule>DEUG LLCE ANGLAIS, RENNES </intitule>
+        <lieu></lieu>
         <annee>1992</annee>
-        <intitule>BAC scientifique série D</intitule>
-        <lieu>Lycée BEAUMONT REDON</lieu>
-        
+        <intitule>BAC scientifique série D, REDON</intitule>
+        <lieu></lieu>
     </formation>
-    <experience>
+    <experience>EXPERIENCE
         <!--<annee></annee>-->
         <fonction>2010/2014 Screg-Rennes Colas-Centre-Ouest : conducteur de tandem Bomag 
-		BW174 AD. Expérience en conduite de compacteur mixte type CB Caterpillar ou pneumatique type Caterpillar PS300
+		BW174 AD. Conduite de compacteur mixte ou pneumatique.
 		</fonction>
 		<fonction> 1999/2010 : Colas Chantepie : maçon VRD et travaux d’enrobage, publiques et particuliers.
 		</fonction> 
-		<fonction> 1990/1998 : bâtiment (rénovation monument historique) et travaux publics. (Screg, Eurovia, Colas, JOUBREL/LIMEUL)
+		<fonction> 1990/1998 : bâtiment (rénovation monument historique) et travaux publics. (Screg, Eurovia, Colas, Joubrel/Limeul)
 		</fonction>
         <!--<lieu></lieu>-->
     </experience>
 
-    <competence>
+    <competence>COMPETENCE
     	<fonction>ANGLAIS : lu, écrit, parlé</fonction>
 		<fonction>Allemand : notions</fonction>
 		<fonction>Permis B</fonction>
 		<fonction>CACES : catégorie 1-7-9</fonction>
 </competence>
 
-    <hobbies>
-    	<fonction>Dirigeant U13, Guipry-Messac (FCGM) {dirigeant U8 (2011-2013) et U10 (2013-2015)}</fonction>
+    <hobbies>LOISIRS
+    	<fonction>Dirigeant U13, Guipry-Messac [(FCGM) dirigeant U8 (2011-2013) et U10 (2013-2015)]</fonction>
 		<fonction> Slot Racing, Cercle-Paul-Bert Rapatel. 
 		: http://slotracing.moninter.net</fonction> 
 		<fonction> Amateur volley-ball, hockey : glace et roller (Cormoran Rennes, Mustangs la Chapelle sur Erdre). Courses automobiles : Endurance, WRC, WRX</fonction> 

@@ -17,13 +17,15 @@ cv{
  	border-size : 1px;  
 }
 
-presentation{
+presentation{box-shadow:2px 2px 10px gray inset;
     color : black;
     font-size: 20px;
     display : flex;
     flex-direction : row;
     justify-content: space-around;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom:20px;
     border-width:5px;	
     border-style:inset;
@@ -37,37 +39,51 @@ presentation{
     background-size: cover;
     }
 titre{/*Web dev jnr*/
-	font-size: 30px;
+	text-shadow: 2px 2px #ff0000;
+	display : flex;
+	flex-direction: column;
+	justify-content:space-around;
+	font-size: 25px;
 	color :black;
-    opacity: 0.8;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
     padding-top: 10px;
-    padding-left: 150px;
-padding-bottom: 10px;
+    padding-left: 120px;
+	padding-bottom: 10px;
     width : 600px;
     height: 100px;
+    opacity: 0.8;
     background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+	box-shadow:2px 2px 10px gray inset;
+	box-shadow:2px 2px 10px gray; 
     border-width:5px;	
     border-style:inset;
+margin-left: 10px;}
+
+titre fonction{
+	color : black;
+
 }
+
+
 formation{
+	box-shadow:2px 2px 10px gray inset;
 	color :black;
 	display: flex;
-flex-direction: row;
-justify-content: center;
-font-size: 20px;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 16px;
     opacity: 0.9;
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 25px;
-    padding-left : 15px;
-    width : 750px;
+    padding-right: 5px;
+    padding-left : 45px;
+    width : 550px;
     height: 300px;
     background-image: url("img020b2.jpg");
     background-attachment: fixed;
@@ -75,40 +91,42 @@ font-size: 20px;
     background-size: cover;	
     border-width:5px;	
     border-style:inset;
-}
+margin-left: 10px;}
 
 experience{
+	box-shadow:2px 2px 10px gray inset;
 	display : flex;
 	flex-direction: column;
 	justify-content: center;
-	font-size: 18px;
+	font-size: 16px;
     color :black;
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 15px;
+    padding-left: 35px;
     opacity: 0.9;
-    width : 450px;
+    width : 650px;
     height: 450px;
     background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-        border-width:5px;	
+    border-width:5px;	
     border-style:inset;
-}
+margin-left: 10px;}
 
 
 competence{/*langues, CACES"*/
+    font-size: 16px;
+	box-shadow:2px 2px 10px gray inset;
 	display : flex;
 	flex-direction: column;
 	justify-content: space-around;
-    font-size: 18px;
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
     width : 250px;
@@ -122,17 +140,19 @@ competence{/*langues, CACES"*/
 	border-width:5px;	
     border-style:inset; 
     border-right : 0px;  
-}
+margin-left: 10px;}
 
 hobbies{
+	font-size: 16px;
+    color :black;
+	box-shadow:2px 2px 10px gray inset;
 	display : flex;
 	flex-direction: row;
 	justify-content: space-between;
-	font-size: 18px;
-    color :black;
     padding-top : 10px;
     padding-bottom: 10px;
     padding-right: 15px;
+    padding-left: 35px;
 		border-width:5px;	
 	    border-style:inset;
 	    border-right: 0px;
@@ -155,10 +175,11 @@ margin-bottom: 0px;
 margin-left: 10px;
 }
 
-hobbies fonction {text-align: left; color : blue;padding-left: 10px;}
+hobbies fonction {text-align: left; color : black;padding-left: 10px;}
 
 nom{
-	color : white;
+	box-shadow:2px 2px 10px gray; 
+	color : orange;
 	font-size: 22px;
 	text-align: center;
 	background-image: url("img020b2.jpg");
@@ -174,7 +195,8 @@ nom{
     }
 
 prenom{
-color : white;
+	box-shadow:2px 2px 10px gray; 
+color : orange;
 	font-size: 22px;
 	text-align: center;
     background-image: url("img020b2.jpg");
@@ -190,7 +212,10 @@ color : white;
     /*background-color: rgb(50,50,50);*/
 }       
 
-adresse{text-align: center;
+adresse{
+	box-shadow:2px 2px 10px gray; 
+	color : orange;
+	text-align: center;
 	font-size: 20px;
     background-image: url("img020b2.jpg");
 	background-repeat: no-repeat;
@@ -205,7 +230,10 @@ adresse{text-align: center;
     /*display :block;*/
 /*opacity: 0.9;*/
 }
-telephone{font-size: 22px;
+telephone{
+	box-shadow:2px 2px 10px gray; 
+	color : brown;
+	font-size: 22px;
 text-align: center;
 	background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
@@ -218,7 +246,10 @@ text-align: center;
     display: block;    
 }
 
-mail {font-size: 22px;
+mail {
+	box-shadow:2px 2px 10px gray; 
+	color : brown;
+	font-size: 22px;
 	text-align: center;
 	background-image: url("img020b2.jpg");
 	background-repeat: no-repeat;
@@ -231,7 +262,10 @@ mail {font-size: 22px;
     display: block;}
 
 
-age{font-size: 22px;
+age{
+	box-shadow:2px 2px 10px gray; 
+	color : brown;
+	font-size: 22px;
 	text-align: center;
     background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
@@ -240,44 +274,44 @@ age{font-size: 22px;
 	border-radius: 35%;
 	padding-top: 15px;
 	padding-left: 15px;
-	padding-right: 5px;
+	padding-right: 10px;
     display: block;
 }
 
 
-annee{color : white;
+annee{
     display: inline-block;
 	background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-left : 10px;
-    padding-right: 10px;
-    padding-top:15px;
+    margin-left :0px;
+    padding-right: 0px;
+    padding-top:5px;
 } 
 
-intitule{color: white;
+intitule{
 	display: inline-block; 
 	background-image: url("img020b2.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-padding-left : 10px;
-    padding-right: 10px;
-    padding-top:15px;
+padding-left : 25px;
+    padding-right: 0px;
+    padding-top:5px;
 }
 
 lieu{
-	color: white;
+	
 	display: inline-block;
 background-image: url("img020b2.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover; 
 
-padding-left : 10px;
-    padding-right: 10px;
-    padding-top:15px;
+padding-left : 5px;
+    padding-right: 0px;
+    padding-top:5px;
 }
 
 
