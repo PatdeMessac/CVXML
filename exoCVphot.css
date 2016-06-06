@@ -1,6 +1,26 @@
 
 
 cv{
+<<<<<<< HEAD
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;        
+    position: absolute; 
+    margin-top : 0;
+    flex-direction: column;
+	opacity: 1;
+    width: 100%;
+    height :650px;
+    background-image: url("minoterie-guipry-messac.jpg");/*a_plane_in_a_cube3.png, a_plane_in_a_cube3.png*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*order-size : 1px;*/ 
+}
+
+presentation{
+=======
     
     font-size: 20px;        
    position: absolute; 
@@ -19,14 +39,48 @@ cv{
 
 presentation{box-shadow:2px 2px 10px gray inset;
     color : black;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     font-size: 20px;
     display : flex;
     flex-direction : row;
     justify-content: space-around;
+<<<<<<< HEAD
+    width : 95%;
+    height: 150px;
+	text-shadow: 2px 2px black;
+	box-shadow:2px 2px 10px gray inset;
+    border-width:1px;	
+    border-style:inset;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+=======
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom:20px;
+<<<<<<< HEAD
+    opacity: 0.9;
+    background-image: url("img020b.jpg");
+    background-attachment: local;
+    background-size: cover;
+    margin-left: 10px;
+    }
+
+titre{/*Web dev jnr*/
+	font-size: 25px;
+	color :black;
+	text-shadow: 2px 2px #ff8844;
+	display : flex;
+	flex-direction: column;
+	justify-content:space-around;
+    padding-top: 10px;
+    padding-left: 120px;
+	padding-bottom: 10px;
+    width : 400px;
+=======
     border-width:5px;	
     border-style:inset;
     border-top-right-radius: 15%;
@@ -49,12 +103,25 @@ titre{/*Web dev jnr*/
     padding-left: 120px;
 	padding-bottom: 10px;
     width : 600px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     height: 100px;
     opacity: 0.8;
     background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+<<<<<<< HEAD
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+
+	box-shadow:2px 2px 10px gray inset;
+	/*box-shadow:2px 2px 10px gray;*/ 
+    border-width:1px;	
+    border-style:inset;
+	margin-left: 10px;}
+=======
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
 	box-shadow:2px 2px 10px gray inset;
@@ -62,6 +129,7 @@ titre{/*Web dev jnr*/
     border-width:5px;	
     border-style:inset;
 margin-left: 10px;}
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 
 titre fonction{
 	color : black;
@@ -74,6 +142,28 @@ formation{
 	color :black;
 	display: flex;
 	flex-direction: column;
+<<<<<<< HEAD
+	justify-content: space-around;
+	font-size: 16px;
+    opacity: 0.9;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left : 35px;
+    width : 500px;
+    height: 300px;
+    background-image: url("img020b.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    border-width:2px;	
+    border-style:inset;
+	margin-left: 10px;}
+=======
 	justify-content: center;
 	font-size: 16px;
     opacity: 0.9;
@@ -92,6 +182,7 @@ formation{
     border-width:5px;	
     border-style:inset;
 margin-left: 10px;}
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 
 experience{
 	box-shadow:2px 2px 10px gray inset;
@@ -100,14 +191,30 @@ experience{
 	justify-content: center;
 	font-size: 16px;
     color :black;
+<<<<<<< HEAD
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+=======
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 35px;
     opacity: 0.9;
     width : 650px;
     height: 450px;
+<<<<<<< HEAD
+    background-image: url("img020b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-width:2px;	
+    border-style:inset;
+	margin-left: 10px;}
+=======
     background-image: url("img020b2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +222,7 @@ experience{
     border-width:5px;	
     border-style:inset;
 margin-left: 10px;}
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 
 
 competence{/*langues, CACES"*/
@@ -122,6 +230,20 @@ competence{/*langues, CACES"*/
 	box-shadow:2px 2px 10px gray inset;
 	display : flex;
 	flex-direction: column;
+<<<<<<< HEAD
+	/*justify-content: space-around;*/
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 35px;
+    width : 250px;
+    height: 400px;
+    background-image: url("img020b.jpg");
+=======
 	justify-content: space-around;
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
@@ -132,27 +254,88 @@ competence{/*langues, CACES"*/
     width : 250px;
     height: 400px;
     background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     border-left-width: 5px; 
+<<<<<<< HEAD
+    opacity: 0.9;
+	border-width:2px;	
+    border-style:inset; 
+    border-right : 0px;  
+	margin-left: 10px;}
+=======
    opacity: 0.9;
 	border-width:5px;	
     border-style:inset; 
     border-right : 0px;  
 margin-left: 10px;}
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 
 hobbies{
 	font-size: 16px;
     color :black;
 	box-shadow:2px 2px 10px gray inset;
 	display : flex;
+<<<<<<< HEAD
+	flex-direction: column;
+	/*justify-content: space-between;*/
+=======
 	flex-direction: row;
 	justify-content: space-between;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     padding-top : 10px;
     padding-bottom: 10px;
     padding-right: 15px;
     padding-left: 35px;
+<<<<<<< HEAD
+	border-width:2px;	
+    border-style:inset;
+    border-right: 0px;
+    border-style: fixed;
+	border-top-left-radius: 10%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+    width : 75%;
+    height: 500px;
+    background-image: url("img020b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	opacity: 0.8;
+
+/*background-repeat: no-repeat;*/
+	margin-bottom: 0px;
+
+	margin-left: 10px;
+}
+
+hobbies fonction {text-align: left; color : black;padding-left: 20px;}
+
+fonction {
+	text-align: left; 
+	color : black;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+
+
+nom{
+	box-shadow:2px 2px 10px #000080; 
+	color : orange;
+	font-size: 22px;
+	text-align: center;
+	background-image: url("img020b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 20px;
+=======
 		border-width:5px;	
 	    border-style:inset;
 	    border-right: 0px;
@@ -188,6 +371,7 @@ nom{
 	background-attachment: fixed;
 		border-radius: 35%;
 	padding-top: 15px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 	/*padding-bottom: 10px;*/
 	padding-left: 15px;
 	padding-right: 15px;
@@ -195,16 +379,38 @@ nom{
     }
 
 prenom{
+<<<<<<< HEAD
+	box-shadow:2px 2px 10px #000080; 
+	color : orange;
+	font-size: 22px;
+	text-align: center;
+    background-image: url("img020b.jpg");
+=======
 	box-shadow:2px 2px 10px gray; 
 color : orange;
 	font-size: 22px;
 	text-align: center;
     background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 	border-radius: 35%;
 
+<<<<<<< HEAD
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;
+}       
+
+adresse{
+	box-shadow:2px 2px 10px #000080; 
+	color : orange;
+	text-align: center;
+	font-size: 22px;
+    background-image: url("img020b.jpg");
+=======
 	padding-top: 15px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -218,6 +424,7 @@ adresse{
 	text-align: center;
 	font-size: 20px;
     background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -228,6 +435,16 @@ adresse{
 	padding-right: 15px;
 
     /*display :block;*/
+<<<<<<< HEAD
+	/*opacity: 0.9;*/
+}
+telephone{
+	box-shadow:2px 2px 10px #000080; 
+	color : orange;
+	font-size: 22px;
+	text-align: center;
+	background-image: url("img020b.jpg");
+=======
 /*opacity: 0.9;*/
 }
 telephone{
@@ -236,62 +453,111 @@ telephone{
 	font-size: 22px;
 text-align: center;
 	background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 	border-radius: 35%;
+<<<<<<< HEAD
+	padding-top: 20px;
+=======
 	padding-top: 15px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 	padding-left: 15px;
 	padding-right: 15px;
     display: block;    
 }
 
 mail {
+<<<<<<< HEAD
+	box-shadow:2px 2px 10px #000080; 
+	color : orange;
+	font-size: 22px;
+	text-align: center;
+	background-image: url("img020b.jpg");
+=======
 	box-shadow:2px 2px 10px gray; 
 	color : brown;
 	font-size: 22px;
 	text-align: center;
 	background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	border-radius: 35%;
+<<<<<<< HEAD
+	padding-top: 20px;
+=======
 	padding-top: 15px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 	padding-left: 15px;
 	padding-right: 15px;
     display: block;}
 
 
 age{
+<<<<<<< HEAD
+	box-shadow:2px 2px 10px #000080; 
+	color : orange;
+	font-size: 20px;
+	text-align: center;
+    background-image: url("img020b.jpg");
+=======
 	box-shadow:2px 2px 10px gray; 
 	color : brown;
 	font-size: 22px;
 	text-align: center;
     background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 	border-radius: 35%;
+<<<<<<< HEAD
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+=======
 	padding-top: 15px;
 	padding-left: 15px;
 	padding-right: 10px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     display: block;
 }
 
 
 annee{
     display: inline-block;
+<<<<<<< HEAD
+	background-image: url("img020b.jpg");
+=======
 	background-image: url("img020b2.jpg");
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin-left :0px;
     padding-right: 0px;
     padding-top:5px;
+<<<<<<< HEAD
+    color : blue;
+=======
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 } 
 
 intitule{
 	display: inline-block; 
+<<<<<<< HEAD
+	background-image: url("img020b.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-left : 25px;
+    padding-right: 0px;
+    padding-top:0px;
+=======
 	background-image: url("img020b2.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -299,17 +565,27 @@ background-size: cover;
 padding-left : 25px;
     padding-right: 0px;
     padding-top:5px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 }
 
 lieu{
 	
 	display: inline-block;
+<<<<<<< HEAD
+	background-image: url("img020b.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+
+	padding-left : 5px;
+=======
 background-image: url("img020b2.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover; 
 
 padding-left : 5px;
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
     padding-right: 0px;
     padding-top:5px;
 }

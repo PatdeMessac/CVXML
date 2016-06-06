@@ -20,6 +20,30 @@
         <age>43 ans</age>
     </presentation>
     
+<<<<<<< HEAD
+    <titre>WEB DEVELOPPEUR Jr
+<fonction>HTML5, CSS3, PHP</fonction>
+    </titre>
+    <formation>FORMATIONS
+        <annee></annee>
+        <intitule>2017 - WEB DEVELOPPEUR JUNIOR, RENNES </intitule>
+        <lieu></lieu>
+        <annee></annee>
+        <intitule>1996 - DEUG LLCE ANGLAIS, RENNES </intitule>
+        <lieu></lieu>
+        <annee></annee>
+        <intitule>1992 - BAC scientifique série D, REDON</intitule>
+        
+    </formation>
+    <experience>EXPERIENCES
+        <!--<annee></annee>-->
+        <fonction>2010/2014 COLAS-Centre-Ouest : conducteur d'engin : Bomag 
+		BW174 AD. Conduite de compacteur mixte ou pneumatique.
+		</fonction>
+		<fonction> 1999/2010 : COLAS Chantepie : maçon VRD et travaux d’enrobage, publics et particuliers.
+		</fonction> 
+		<fonction> 1990/1998 : travaux saisonniers : Bâtiment (rénovation monuments historiques) et Travaux Publics. (Screg, Eurovia, Colas, Joubrel/Limeul)
+=======
     <titre>WEB DEVELOPPER Jr
 <fonction>HTML5, CSS3, PHP</fonction>
 
@@ -46,22 +70,37 @@
 		<fonction> 1999/2010 : Colas Chantepie : maçon VRD et travaux d’enrobage, publiques et particuliers.
 		</fonction> 
 		<fonction> 1990/1998 : bâtiment (rénovation monument historique) et travaux publics. (Screg, Eurovia, Colas, Joubrel/Limeul)
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 		</fonction>
         <!--<lieu></lieu>-->
     </experience>
 
+<<<<<<< HEAD
+    <competence>COMPETENCES
+    	<fonction>Anglais : lu, écrit, parlé</fonction>
+=======
     <competence>COMPETENCE
     	<fonction>ANGLAIS : lu, écrit, parlé</fonction>
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 		<fonction>Allemand : notions</fonction>
 		<fonction>Permis B</fonction>
 		<fonction>CACES : catégorie 1-7-9</fonction>
 </competence>
 
     <hobbies>LOISIRS
+<<<<<<< HEAD
+    	<fonction>Design, innovation et écriture : blog : <annee>1mo-1id.over-blog.com</annee></fonction>
+    	<fonction>Dirigeant U13, Guipry-Messac [(FCGM) dirigeant U8 (2011-2013) et U10 (2013-2015)]</fonction>
+		<fonction>Slot Racing, Cercle-Paul-Bert Rapatel. 
+		: <annee>http://slotracing.moninter.net</annee>, carte google club et artisants France</fonction> 
+		<fonction>Amateur volley-ball, hockey : glace et roller (Cormoran Rennes, Mustangs la Chapelle sur Erdre). Courses automobiles : Endurance, WRC, WRX</fonction>
+		<fonction>Activité réseaux sociaux : Facebook, Twitter, Pinterest, Tumblr, Instagram, LinkedIn, Viadeo</fonction> 
+=======
     	<fonction>Dirigeant U13, Guipry-Messac [(FCGM) dirigeant U8 (2011-2013) et U10 (2013-2015)]</fonction>
 		<fonction> Slot Racing, Cercle-Paul-Bert Rapatel. 
 		: http://slotracing.moninter.net</fonction> 
 		<fonction> Amateur volley-ball, hockey : glace et roller (Cormoran Rennes, Mustangs la Chapelle sur Erdre). Courses automobiles : Endurance, WRC, WRX</fonction> 
+>>>>>>> 91b397913b577176ee872909e087076d0439935a
 </hobbies>
     
 </cv>
